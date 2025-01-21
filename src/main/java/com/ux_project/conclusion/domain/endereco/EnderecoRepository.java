@@ -1,4 +1,6 @@
 package com.ux_project.conclusion.domain.endereco;
 
-public interface EnderecoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EnderecoRepository extends JpaRepository<Endereco,Long> {
 }
