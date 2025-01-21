@@ -1,11 +1,17 @@
 package com.ux_project.conclusion.domain.doacao;
 
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Getter
+@Data
 @Service
 public class DoacaoService {
 
